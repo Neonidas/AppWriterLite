@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "AppWriter Lite";
+}
+
+<div class="text-center">
+    <h1 class="display-4">AppWriter Lite</h1>
+    <p>Start typing to get word completion suggestions.</p>
+</div>
+
+<div style="width:100%;height:100%">
+    <textarea id="userInput" placeholder="Type here" style="width:100%;height:2em;resize:both;"></textarea>
+    
+</div>
+
+<div class="text-center">
+    <ul class="social">
+        <li id="dk_click" class="button_lang current_lang">Dk</li>
+        <li id="en_click" class="button_lang">En</li>
+    </ul>
+    <!-- <button id="language-button">DK/EN</button> -->
+</div>
